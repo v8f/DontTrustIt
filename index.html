@@ -1,0 +1,24 @@
+<html>
+ <body>
+   <link rel="stylesheet" href="style.css">
+<h1>DON'T TRUST HIM</h1>
+   <h2>I'm warning you.</h2>
+   <audio src="/horrible.mp3" id="myAudio"></audio>
+   <button id="myBtn">Info</button>
+   <script> document.getElementById("myBtn").addEventListener("click",function(){
+       document.getElementById("myAudio").play();
+  document.getElementById("myAudio").loop = true;
+     }
+     );
+myBtn.onclick = myFunction;
+
+  function myFunction() {
+alert(":) thanks for your information. you are now hacked. i wouldn't reccomend leaving.");
+document.getElementsByTagName("BODY")[0].style.backgroundColor = "darkred";
+    let header = document.querySelector("h1");
+header.innerText = "I'm sorry.. I warned you...";
+        let text = document.querySelector("h2");
+text.innerText = "I feel so bad... You should have selected the text.";
+  }</script>
+ </body>
+</html>
